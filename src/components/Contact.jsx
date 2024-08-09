@@ -82,8 +82,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_zbd4n6f", "template_wpfx9dg", ref.current, {
-        publicKey: "DIG5cKwLh-rhEI9oM",
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", ref.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
       })
       .then(
         () => {
