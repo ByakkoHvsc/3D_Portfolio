@@ -85,7 +85,7 @@ This project is a 3D portfolio built using ReactJS. It showcases different secti
 
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Contributing
